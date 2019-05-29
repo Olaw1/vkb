@@ -6,7 +6,7 @@ By default the keyboard has the nordic alphabets, but these can be easily change
 
 WARNING: the library doesn't differentiate between devices and the behavior of the website is affected by the keyboard. Device detection is up to you.
 
-####Use cases:
+#### Use cases:
 
 1. Touch screen support for any website.
 2. Systems where touch device is used to obtain user input.
