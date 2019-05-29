@@ -58,6 +58,6 @@ Example 3 Binding single element or an array of elements
   VKB.CenterKeyboard();
   VKB.CreateKeyboard();
   VKB.Bind(document.getElementById("test_input"));
-  VKB.Bind(document.getElementById("inputs).childNodes);
+  VKB.Bind(document.getElementById("inputs").childNodes);
 </script>
 ~~~
