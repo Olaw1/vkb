@@ -28,4 +28,4 @@ Example 1
 ~~~
 
 In the example above we first reference the JavaScript file for the virtual keyboard. In the following script tag we call the CreateKeyboard function, which generates the keyboard. Then we call AutoBind which finds all textareas and input elements with types: text, email and password in the webpage and adds focus listener to them. When those inputs get focus the keyboard will appear below them.
-To make the keyboard look more user friendly we can center '''VKB.CenterKeyborad();''' function.
+To make the keyboard look more user friendly we can center `VKB.CenterKeyborad();` function.
