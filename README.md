@@ -92,3 +92,6 @@ VKB.KeyFocusStyle({
 </script>
 ~~~
 
+Result:
+
+![](https://github.com/Olaw1/vkb/blob/master/kb2.png)
