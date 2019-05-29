@@ -20,4 +20,8 @@ The library can be freely used and modified. No credit or licences required.
 
 ~~~html
 <script src="./VKB.js"></script>
+<script>
+  VKB.CreateKeyboard();
+  VKB.AutoBind();
+</script>
 ~~~
