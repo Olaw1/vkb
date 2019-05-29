@@ -72,21 +72,21 @@ Example 4 Styling
 <script src="./VKB.js"></script>
 <script>
   VKB.CenterKeyboard();
-VKB.KeyboardParentStyles({
+  VKB.KeyboardParentStyles({
 	backgroundColor: "#bc67ad"
-});
-VKB.KeyStyles({
+  });
+  VKB.KeyStyles({
 	color: "black",
 	backgroundColor: "#e072b6",
 	margin: "10px"
-});
-VKB.SpecialKeyStyles({
+  });
+  VKB.SpecialKeyStyles({
 	color: "black",
 	backgroundColor: "#e072b6"
-});
-VKB.KeyFocusStyle({
+  });
+  VKB.KeyFocusStyle({
 	borderColor: "#f41804"
-});
+  });
   VKB.CreateKeyboard(true);
   VKB.AutoBind();
 </script>
