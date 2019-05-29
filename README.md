@@ -4,7 +4,7 @@ This project started with a need for simple and easy to use virtual keyboard in 
 
 By default the keyboard has the nordic alphabets, but these can be easily changed (by modifying the values in the script itself).
 
-WARNING: the library doesn't differentiate between devices and the behavior of the website is affected by the keyboard. Device detection is up to you.
+WARNING: the library doesn't differentiate between devices and the behavior of the website is affected by the keyboard. Device detection is up to you. This is not a problem if your website is designed only for touch screens from the get-go.
 
 #### Use cases:
 
