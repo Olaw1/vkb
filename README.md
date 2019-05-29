@@ -61,3 +61,29 @@ Example 3 Binding single element or an array of elements
   VKB.Bind(document.getElementById("inputs").childNodes);
 </script>
 ~~~
+
+
+Example 4 Styling
+
+~~~html
+<script src="./VKB.js"></script>
+<script>
+  VKB.CenterKeyboard();
+  VKB.KeyboardParentStyles({
+    backgroundColor: "#151515"
+  })
+  VKB.KeyStyles({
+    color: "#60e5a2",
+    margin: "10px"
+  });
+  VKB.SpecialKeyStyles({
+    color: "#60e5a2"
+  });
+  VKB.KeyFocusStyle({
+    borderColor: "#60e5a2"
+  });
+  VKB.CreateKeyboard(true);
+  VKB.AutoBind();
+</script>
+~~~
+
