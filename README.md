@@ -40,6 +40,9 @@ Example 2 Setup
   VKB.DisableRightClick();
   VKB.CreateKeyboard();
   VKB.AutoBind();
+  window.onresize = function(event) {
+    VKB.AutoSize();
+  };
 </script>
 ~~~
 
@@ -69,19 +72,21 @@ Example 4 Styling
 <script src="./VKB.js"></script>
 <script>
   VKB.CenterKeyboard();
-  VKB.KeyboardParentStyles({
-    backgroundColor: "#151515"
-  })
-  VKB.KeyStyles({
-    color: "#60e5a2",
-    margin: "10px"
-  });
-  VKB.SpecialKeyStyles({
-    color: "#60e5a2"
-  });
-  VKB.KeyFocusStyle({
-    borderColor: "#60e5a2"
-  });
+VKB.KeyboardParentStyles({
+	backgroundColor: "#bc67ad"
+});
+VKB.KeyStyles({
+	color: "black",
+	backgroundColor: "#e072b6",
+	margin: "10px"
+});
+VKB.SpecialKeyStyles({
+	color: "black",
+	backgroundColor: "#e072b6"
+});
+VKB.KeyFocusStyle({
+	borderColor: "#f41804"
+});
   VKB.CreateKeyboard(true);
   VKB.AutoBind();
 </script>
