@@ -17,9 +17,9 @@ The library can be freely used and modified. No credit or licences required.
 
 ### Code examples
 
-Example 1
+Example 1 Simple setup
 
-~~~html
+~~~html 
 <script src="./VKB.js"></script>
 <script>
   VKB.CreateKeyboard();
@@ -30,7 +30,7 @@ Example 1
 In the example above we first reference the JavaScript file for the virtual keyboard. In the following script tag we call the CreateKeyboard function, which generates the keyboard. Then we call AutoBind which finds all textareas and input elements with types: text, email and password in the webpage and adds focus listener to them. When those inputs get focus the keyboard will appear below them.
 To make the keyboard look more user friendly we can center `VKB.CenterKeyborad();` function. We can also DisableZoom with `VKB.DisableZoom();` and disable right click with `VKB.DisableRightClick();`.
 
-Example 2
+Example 2 Setup
 
 ~~~html
 <script src="./VKB.js"></script>
@@ -40,5 +40,24 @@ Example 2
   VKB.DisableRightClick();
   VKB.CreateKeyboard();
   VKB.AutoBind();
+</script>
+~~~
+
+Example 3 Binding single element or an array of elements
+
+
+~~~html
+<div id="inputs">
+  <input type="text">
+  <input type="text">
+  <input type="text">
+</div>
+<input type="text" id="test_input">
+<script src="./VKB.js"></script>
+<script>
+  VKB.CenterKeyboard();
+  VKB.CreateKeyboard();
+  VKB.Bind(document.getElementById("test_input"));
+  VKB.Bind(document.getElementById("inputs).childNodes);
 </script>
 ~~~
