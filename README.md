@@ -14,3 +14,10 @@ WARNING: the library doesn't differentiate between devices and the behavior of t
 The library can be freely used and modified. No credit or licences required.
 
 ![](https://github.com/Olaw1/vkb/blob/master/kb.png)
+
+### Code examples
+
+
+~~~html
+<script src="./VKB.js"></script>
+~~~
