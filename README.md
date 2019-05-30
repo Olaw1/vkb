@@ -102,4 +102,4 @@ Example 4 Styling
 
 Result:
 
-![](https://github.com/Olaw1/vkb/blob/master/kb2.png)
+![](https://github.com/Olaw1/vkb/blob/master/kb1.png)
