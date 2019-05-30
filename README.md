@@ -12,7 +12,7 @@ WARNING: the library doesn't differentiate between devices and the behavior of t
 2. Systems designed with web techonologies where touch device is used to obtain user input.
 
 The library can be freely used and modified. No credit or licences required.
-
+![](https://github.com/Olaw1/vkb/blob/master/kb1.png)
 ![](https://github.com/Olaw1/vkb/blob/master/kb.png)
 
 ### Code examples
