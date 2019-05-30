@@ -9,7 +9,7 @@ WARNING: the library doesn't differentiate between devices and the behavior of t
 #### Use cases:
 
 1. Touch screen support for any website.
-2. Systems where touch device is used to obtain user input.
+2. Systems designed with web techonologies where touch device is used to obtain user input.
 
 The library can be freely used and modified. No credit or licences required.
 
