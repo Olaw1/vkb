@@ -73,19 +73,27 @@ Example 4 Styling
 <script>
   VKB.CenterKeyboard();
   VKB.KeyboardParentStyles({
-	backgroundColor: "#bc67ad"
+	backgroundColor: "#bc67ad",
+	backgroundImage: "linear-gradient(gray, lightgray)"
   });
   VKB.KeyStyles({
 	color: "black",
-	backgroundColor: "#e072b6",
+	backgroundColor: "#efefef",
+	backgroundImage: "linear-gradient(gray, white)",
+	borderColor: "white",
 	margin: "10px"
   });
   VKB.SpecialKeyStyles({
 	color: "black",
-	backgroundColor: "#e072b6"
+	backgroundColor: "#c9c9c9",
+	backgroundImage: "linear-gradient(gray, white)",
+	borderColor: "white"
   });
   VKB.KeyFocusStyle({
-	borderColor: "#f41804"
+	borderColor: "#c8f7d4"
+  });
+  VKB.KeyUnfocusStyle({
+	borderColor: "white"
   });
   VKB.CreateKeyboard(true);
   VKB.AutoBind();
