@@ -46,7 +46,7 @@ Example 2 Setup
 </script>
 ~~~
 
-Example 3 Binding single element or an array of elements
+Example 3 Binding single element, an array of elements or div element.
 
 
 ~~~html
@@ -55,13 +55,15 @@ Example 3 Binding single element or an array of elements
   <input type="text">
   <input type="text">
 </div>
+<div id="divinput" tabindex="4"></div>
 <input type="text" id="test_input">
 <script src="./VKB.js"></script>
 <script>
   VKB.CenterKeyboard();
   VKB.CreateKeyboard();
   VKB.Bind(document.getElementById("test_input"));
-  VKB.Bind(document.getElementById("inputs").childNodes);
+  VKB.Bind(document.getElementsByTagName("input"));
+  VKB.Bind(document.getElementById("divinput"));
 </script>
 ~~~
 
