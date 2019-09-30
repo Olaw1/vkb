@@ -223,11 +223,12 @@ var VKB = (function(){
 	  var kp = document.getElementById('keyboard_parent');
 	  var inp = e.target;
 	  focused_input = inp;
-    kp.style.display = "block";
-    if(cent){
-      var height = focused_input.offsetHeight;
-      kp.style.top = (focused_input.offsetTop+height+5)+"px";
-      kp.style.left = (focused_input.offsetLeft+(focused_input.clientWidth/2)-(kp.clientWidth/2))+"px";
+    	  kp.style.display = "block";
+	var rect = focused_input.getBoundingClientRect();
+     if(cent){
+      var height = rect.height;
+      kp.style.top = (rect.top+height+5)+"px";
+      kp.style.left = (rect.left+(rect.width/2)-(kp.clientWidth/2))+"px";
     }else{
   	  var height = focused_input.offsetHeight;
   	  kp.style.top = (focused_input.offsetTop+height+5)+"px";
